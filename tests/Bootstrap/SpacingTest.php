@@ -1,13 +1,13 @@
 <?php
 
-namespace Awssat\Tailwindo\Test;
+namespace Osen\Tailwindo\Test;
 
-use Awssat\Tailwindo\Converter;
+use Osen\Tailwindo\Converter;
 use PHPUnit\Framework\TestCase;
 
 class SpacingTest extends TestCase
 {
-    /** @var Awssat\Tailwindo\Converter */
+    /** @var Osen\Tailwindo\Converter */
     protected $converter;
 
     protected function setUp(): void

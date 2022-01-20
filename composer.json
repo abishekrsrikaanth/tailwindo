@@ -1,23 +1,23 @@
 {
-    "name": "awssat/tailwindo",
+    "name": "osenco/tailwindo",
     "description": "Convert Bootstrap CSS to Tailwind CSS",
     "keywords": [
     "CSS",
     "Tailwind",
     "Bootstrap"
     ],
-    "homepage": "https://github.com/awssat/tailwindo",
+    "homepage": "https://github.com/osenco/tailwindo",
     "license": "MIT",
     "authors": [
         {
-            "name": "Awssat",
-            "email": "hello@awssat.com"
+            "name": "Osen",
+            "email": "hi@osen.co.ke"
         }
     ],
 
     "require": {
-        "php": "^7.2|^8.0",
-        "symfony/console": "^4.0|^5.0"
+        "php": "^7.4",
+        "symfony/console": "^5.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^8"
@@ -25,12 +25,12 @@
     
     "autoload": {
         "psr-4": {
-            "Awssat\\Tailwindo\\": "src"
+            "Osen\\Tailwindo\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Awssat\\Tailwindo\\Test\\": "tests"
+            "Osen\\Tailwindo\\Test\\": "tests"
         }
     },
     "scripts": {

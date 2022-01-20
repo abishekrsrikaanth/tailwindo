@@ -1,7 +1,7 @@
 # Tailwindo
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/awssat/tailwindo.svg?style=flat-square)](https://packagist.org/packages/awssat/tailwindo)
-[![Actions Status](https://github.com/awssat/tailwindo/workflows/Tests/badge.svg)](https://github.com/awssat/tailwindo/actions)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/osenco/tailwindo.svg?style=flat-square)](https://packagist.org/packages/osenco/tailwindo)
+[![Actions Status](https://github.com/osenco/tailwindo/workflows/Tests/badge.svg)](https://github.com/osenco/tailwindo/actions)
 
 <p align="center">
   <img src="https://pbs.twimg.com/media/DQ-mDgSX0AUpCPL.png">

@@ -1,14 +1,14 @@
 <?php
 
-namespace Awssat\Tailwindo\Test;
+namespace Osen\Tailwindo\Test;
 
-use Awssat\Tailwindo\Converter;
-use Awssat\Tailwindo\Framework\BootstrapFramework;
+use Osen\Tailwindo\Converter;
+use Osen\Tailwindo\Framework\BootstrapFramework;
 use PHPUnit\Framework\TestCase;
 
 class BootstrapFrameworkTest extends TestCase
 {
-    /** @var Awssat\Tailwindo\Converter */
+    /** @var Osen\Tailwindo\Converter */
     protected $bootstrap;
     protected $converter;
 

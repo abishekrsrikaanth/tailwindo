@@ -6,7 +6,7 @@ use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Input\InputOption;
-use Awssat\Tailwindo\ConsoleHelper;
+use Osen\Tailwindo\ConsoleHelper;
 
 if (file_exists(__DIR__.'/vendor/autoload.php')) {
     require __DIR__.'/vendor/autoload.php';
@@ -49,7 +49,7 @@ if (file_exists(__DIR__.'/vendor/autoload.php')) {
 
         $framework = strtolower($input->getOption('framework'));
 
-        if (! class_exists('Awssat\\Tailwindo\\Framework\\' . ucfirst($framework).'Framework')) {
+        if (! class_exists('Osen\\Tailwindo\\Framework\\' . ucfirst($framework).'Framework')) {
             $output->writeln("<comment>Oops! {$framework} is not supported!</comment>");
             return -1;
         }

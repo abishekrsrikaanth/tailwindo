@@ -1,6 +1,6 @@
 <?php
 
-namespace Awssat\Tailwindo;
+namespace Osen\Tailwindo;
 
 class Converter
 {
@@ -12,7 +12,7 @@ class Converter
 
     protected $lastSearches = [];
 
-    /** @var \Awssat\Tailwindo\Framework\Framework */
+    /** @var \Osen\Tailwindo\Framework\Framework */
     protected $framework;
 
     protected $generateComponents = false;
@@ -40,14 +40,14 @@ class Converter
 
     public function setFramework(string $framework): self
     {
-        $framework = 'Awssat\\Tailwindo\\Framework\\'.ucfirst($framework).'Framework';
+        $framework = 'Osen\\Tailwindo\\Framework\\'.ucfirst($framework).'Framework';
 
         $this->framework = new $framework();
 
         return $this;
     }
 
-    public function getFramework(): \Awssat\Tailwindo\Framework\Framework
+    public function getFramework(): \Osen\Tailwindo\Framework\Framework
     {
         return $this->framework;
     }

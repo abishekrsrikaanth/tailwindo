@@ -1,6 +1,6 @@
 <?php
 
-namespace Awssat\Tailwindo\Framework;
+namespace Osen\Tailwindo\Framework;
 
 interface Framework
 {

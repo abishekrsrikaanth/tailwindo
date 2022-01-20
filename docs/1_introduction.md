@@ -18,7 +18,7 @@ Tailwindo can convert Your CSS framework (currently Boostrap) classes in HTML/PH
 }
 ```
 
-> **Tip** Check our newest tool, update your tailwindcss code to newer versions hassle-free ([tailwind-shift](https://github.com/awssat/tailwind-shift))
+> **Tip** Check our newest tool, update your tailwindcss code to newer versions hassle-free ([tailwind-shift](https://github.com/osenco/tailwind-shift))
 
 ---
 

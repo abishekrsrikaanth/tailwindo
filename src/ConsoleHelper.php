@@ -1,12 +1,12 @@
 <?php
 
-namespace Awssat\Tailwindo;
+namespace Osen\Tailwindo;
 
 use Symfony\Component\Console\Output\OutputInterface;
 
 class ConsoleHelper
 {
-    /** @var \Awssat\Tailwindo\Converter */
+    /** @var \Osen\Tailwindo\Converter */
     protected $converter;
 
     protected $output;
